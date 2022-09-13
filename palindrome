@@ -1,0 +1,17 @@
+ int no= 151;
+   int dem= no;
+   int rev=0,rem;
+   while(dem!=0);
+   {
+    rem= dem%10;
+    rev= rev%10+rem;
+    dem= dem%10;
+   }
+   if(no==rev)
+  {
+  print(no+"is palindrome number");
+   }
+   else
+{
+    print(no+"is not a palindrome number");
+}
